@@ -36,6 +36,7 @@ export const getProjects = (): Project[] => {
       heroXL: guildXL,
       heroXXL: guildXXL,
       type: "Commercial",
+      figmaFile: "https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.figma.com%2Ffile%2FI7GdLv9k80cEmmJ6Ko8mb4%2FGuild---Poll-conversation%3Ftype%3Ddesign%26node-id%3D29-690288%26mode%3Ddesign&h=AT2xFBqUFXpiSAqyRl7W4Mpp1jReR0TNMvnDsdzcBBWWvnnxTGu45o87tZhJW2yvOSy7QzuwTzWQ-3bmDIQEHnWnis671bj0Z-_PKUOKPR-_xR6FJ3emSpY-WS5ltXWIFfpSTNz3kMw",
     },
     {
       name: "omantel",
@@ -47,6 +48,7 @@ export const getProjects = (): Project[] => {
       heroXXL: omantelXXL,
       url: "/omantel",
       type: "Commercial",
+      figmaFile: "https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.figma.com%2Ffile%2F2IbjXBrTFRmJGBGSf5qGYh%2FOmantel---Outlet-Pickup%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DgZm6KGg4fgbo0hqu-1&h=AT2xFBqUFXpiSAqyRl7W4Mpp1jReR0TNMvnDsdzcBBWWvnnxTGu45o87tZhJW2yvOSy7QzuwTzWQ-3bmDIQEHnWnis671bj0Z-_PKUOKPR-_xR6FJ3emSpY-WS5ltXWIFfpSTNz3kMw",
     },
     {
       name: "deskly",
@@ -58,6 +60,7 @@ export const getProjects = (): Project[] => {
       heroXL: desklyXL,
       heroXXL: desklyXXL,
       type: "Personal created for portfolio purposes",
+      figmaFile: "https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.figma.com%2Ffile%2Fmjir1U2RbWz0mqUSGUChf8%2FDesk-booking-app%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3Dno20rg3tREC66Dfb-1&h=AT2xFBqUFXpiSAqyRl7W4Mpp1jReR0TNMvnDsdzcBBWWvnnxTGu45o87tZhJW2yvOSy7QzuwTzWQ-3bmDIQEHnWnis671bj0Z-_PKUOKPR-_xR6FJ3emSpY-WS5ltXWIFfpSTNz3kMw",
     },
     {
       name: "healthyme",
