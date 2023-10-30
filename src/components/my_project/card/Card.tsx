@@ -6,14 +6,14 @@ import React from "react";
 
 const Card = (project: Project) => {
   return (
-    <div className={styles.card}>
+    <a href={project.url} className={styles.card}>
       <div>
         <img src={project.tile} alt={project.title} />
         <h2>{project.title}</h2>
         <p>{project.description}</p>
       </div>
       <Button text="Read more" url={project.url} />
-    </div>
+    </a>
   );
 };
 export default Card;
