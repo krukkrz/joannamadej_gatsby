@@ -1,0 +1,25 @@
+@use "../../styles/rwd" as *;
+
+.image {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@include s {
+    .image {
+        width: 100%;
+    }
+}
+
+@include xs {
+  .image {
+    width: 100%;
+  }
+}
+
+@include xxs {
+  .image {
+    width: 100%;
+  }
+}
