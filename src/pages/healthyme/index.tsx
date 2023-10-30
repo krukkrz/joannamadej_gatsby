@@ -13,7 +13,7 @@ import healthyme_3 from "../../assets/projects/healthyme/works/healthyme_3.png";
 //@ts-ignore
 import healthyme_4 from "../../assets/projects/healthyme/works/healthyme_4.png";
 //@ts-ignore
-import healthyme_5 from "../../assets/projects/healthyme/works/healthyme_5.mov";
+import healthyme_5 from "file-loader!../../assets/projects/healthyme/works/healthyme_5.mov";
 //@ts-ignore
 import healthyme_6 from "../../assets/projects/healthyme/works/healthyme_6.png";
 //@ts-ignore
@@ -48,9 +48,9 @@ const Index = () => {
         <img src={healthyme_2} alt="healthyme_2" />
         <img src={healthyme_3} alt="healthyme_3" />
         <img src={healthyme_4} alt="healthyme_4" />
-        {/*<video controls>*/}
-        {/*    <source src={healthyme_5} />*/}
-        {/*</video>*/}
+        <video controls autoPlay>
+            <source src={healthyme_5} />
+        </video>
         <img src={healthyme_6} alt="healthyme_6" />
         <img src={healthyme_7} alt="healthyme_7" />
         <img src={healthyme_8} alt="healthyme_8" />
