@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6423b9b5-d5ac-4a4b-88c4-b01c1b38acf5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/projects/healthyme/works/healthyme_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/projects/healthyme/works/healthyme_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/projects/healthyme/works/healthyme_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/projects/healthyme/works/healthyme_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/healthyme/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/healthyme/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +61,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/projects/healthyme/works" />
       <recent name="$PROJECT_DIR$/src/styles" />
     </key>
   </component>
