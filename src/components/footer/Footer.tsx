@@ -7,9 +7,6 @@ const Footer = () => {
     <footer className={styles.footer}>
       <p>
         designed with love by Joanna
-        <span className={styles.kris}>
-          , coded because she asked him by Krzysztof
-        </span>
       </p>
     </footer>
   );

@@ -12,10 +12,6 @@
   font-size: 20px;
 }
 
-.kris {
-  display: inline;
-}
-
 @include s {
   .footer {
     font-size: 16px;
@@ -26,16 +22,10 @@
   .footer {
     font-size: 12px;
   }
-  .kris {
-    display: none;
-  }
 }
 
 @include xxs {
   .footer {
     font-size: 12px;
-  }
-  .kris {
-    display: none;
   }
 }
