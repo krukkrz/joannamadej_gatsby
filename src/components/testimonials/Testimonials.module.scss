@@ -1,0 +1,74 @@
+@use "../../styles/rwd.scss" as *;
+
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 48px;
+}
+
+.testimonials_col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  width: 60%;
+}
+
+.testimonials_col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+@include s {
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .testimonials_col1 {
+    width: 100%;
+    gap: 24px;
+  }
+
+  .testimonials_col2 {
+    width: 100%;
+  }
+}
+
+@include xs {
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .testimonials_col1 {
+    width: 100%;
+    gap: 24px;
+  }
+
+  .testimonials_col2 {
+    width: 100%;
+  }
+}
+
+@include xxs {
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .testimonials_col1 {
+    width: 100%;
+    gap: 24px;
+  }
+
+  .testimonials_col2 {
+    width: 100%;
+  }
+}

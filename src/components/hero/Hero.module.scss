@@ -1,0 +1,93 @@
+@use "../../styles/rwd.scss" as *;
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 64px;
+  margin-bottom: 96px;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero p {
+  font-size: 4.7vw;
+  line-height: normal;
+}
+
+.hero img {
+  display: block;
+  min-width: 50%;
+  height: auto;
+}
+
+@include xl {
+  .hero {
+    margin-bottom: 88px;
+    p {
+      font-size: 64px;
+    }
+  }
+}
+
+@include l {
+  .hero {
+    margin-top: 56px;
+    margin-bottom: 80px;
+    p {
+      font-size: 64px;
+    }
+  }
+}
+
+@include m {
+  .hero {
+    margin-top: 40px;
+    margin-bottom: 72px;
+    p {
+      font-size: 56px; //todo: consider smaller font size
+    }
+  }
+}
+
+@include s {
+  .hero {
+    margin-top: 40px;
+    margin-bottom: 64px;
+    p {
+      font-size: 40px;
+    }
+  }
+}
+
+@include xs {
+  .hero {
+    margin-top: 120px;
+    margin-bottom: 104px;
+    img {
+      display: none;
+    }
+    p {
+      font-size: 40px;
+    }
+  }
+}
+
+@include xxs {
+  .hero {
+    margin-top: 96px;
+    margin-bottom: 128px;
+    img {
+      display: none;
+    }
+    p {
+      font-size: 40px;
+    }
+  }
+}

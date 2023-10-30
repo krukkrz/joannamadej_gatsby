@@ -1,0 +1,49 @@
+@use "../styles/rwd" as *;
+
+.home {
+  display: flex;
+  flex-direction: column;
+  row-gap: 208px;
+}
+
+@include xl {
+  .home {
+    row-gap: 168px;
+  }
+}
+
+@include l {
+  .home {
+    row-gap: 168px;
+  }
+}
+
+@include m {
+  .home {
+    row-gap: 168px;
+  }
+}
+
+@include s {
+  .home {
+    row-gap: 136px;
+  }
+}
+
+@include s {
+  .home {
+    row-gap: 136px;
+  }
+}
+
+@include xs {
+  .home {
+    row-gap: 128px;
+  }
+}
+
+@include xxs {
+  .home {
+    row-gap: 112px;
+  }
+}

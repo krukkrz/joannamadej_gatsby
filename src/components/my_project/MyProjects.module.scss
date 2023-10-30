@@ -1,0 +1,37 @@
+@use "../../styles/rwd.scss" as *;
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px;
+  row-gap: 104px;
+  justify-content: space-between;
+}
+
+@include l {
+  .cards {
+    gap: 24px;
+    row-gap: 56px;
+  }
+}
+
+@include m {
+  .cards {
+    gap: 24px;
+    row-gap: 56px;
+  }
+}
+
+@include s {
+  .cards {
+    gap: 24px;
+    row-gap: 56px;
+  }
+}
+
+@include xs {
+  .cards {
+    gap: 80px;
+  }
+}

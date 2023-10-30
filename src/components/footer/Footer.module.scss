@@ -1,0 +1,41 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/rwd.scss" as *;
+
+.footer {
+  background-color: $black;
+  color: white;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.kris {
+  display: inline;
+}
+
+@include s {
+  .footer {
+    font-size: 16px;
+  }
+}
+
+@include xs {
+  .footer {
+    font-size: 12px;
+  }
+  .kris {
+    display: none;
+  }
+}
+
+@include xxs {
+  .footer {
+    font-size: 12px;
+  }
+  .kris {
+    display: none;
+  }
+}

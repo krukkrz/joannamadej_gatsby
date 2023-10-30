@@ -1,0 +1,48 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/rwd.scss" as *;
+
+.navbar {
+  display: flex;
+  gap: 64px;
+  font-weight: $medium;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@include s {
+  .navbar {
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+@include xs {
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+  }
+}
+
+@include xxs {
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+  }
+}

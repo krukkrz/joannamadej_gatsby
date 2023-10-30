@@ -1,0 +1,114 @@
+@use "../../styles/rwd.scss" as *;
+
+.contact {
+  width: 40%;
+}
+
+.item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  font-size: 24px;
+  line-height: 32px;
+  gap: 16px;
+  height: 88px;
+}
+
+.item img {
+  height: 40px;
+  width: 40px;
+}
+
+@include xl {
+  .item {
+    font-size: 20px;
+    line-height: 32px;
+    height: 80px;
+  }
+
+  .item img {
+    height: 32px;
+    width: 32px;
+  }
+}
+
+@include l {
+  .item {
+    font-size: 20px;
+    height: 80px;
+  }
+
+  .item img {
+    height: 32px;
+    width: 32px;
+  }
+
+  .contact {
+    width: 50%;
+  }
+}
+
+@include m {
+  .item {
+    font-size: 20px;
+    height: 80px;
+  }
+
+  .item img {
+    height: 32px;
+    width: 32px;
+  }
+
+  .contact {
+    width: 60%;
+  }
+}
+
+@include s {
+  .item {
+    font-size: 20px;
+    height: 80px;
+  }
+
+  .item img {
+    height: 32px;
+    width: 32px;
+  }
+
+  .contact {
+    width: 60%;
+  }
+}
+
+@include xs {
+  .item {
+    font-size: 16px;
+    height: 80px;
+  }
+
+  .item img {
+    height: 28px;
+    width: 28px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+}
+
+@include xxs {
+  .item {
+    font-size: 14px;
+    height: 80px;
+  }
+
+  .item img {
+    height: 28px;
+    width: 28px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+}

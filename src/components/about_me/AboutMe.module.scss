@@ -1,0 +1,67 @@
+@use "../../styles/rwd.scss" as *;
+
+.aboutme {
+  width: 60%;
+}
+
+.aboutme p {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+@include xl {
+  .aboutme p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@include l {
+  .aboutme {
+    width: 80%;
+  }
+  .aboutme p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@include m {
+  .aboutme {
+    width: 80%;
+  }
+  .aboutme p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@include s {
+  .aboutme {
+    width: 100%;
+  }
+  .aboutme p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@include xs {
+  .aboutme {
+    width: 100%;
+  }
+  .aboutme p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@include xxs {
+  .aboutme {
+    width: 100%;
+  }
+  .aboutme p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}

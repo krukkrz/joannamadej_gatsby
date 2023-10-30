@@ -1,0 +1,127 @@
+@use "../../styles/rwd" as *;
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 40px;
+  font-size: 16px;
+  line-height: 32px;
+  h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  a {
+    text-decoration: underline;
+  }
+}
+
+.projectData {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 20px;
+  justify-content: space-between;
+  span {
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+.heroXXL {
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 56px;
+}
+
+.heroXL {
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 56px;
+  display: none;
+}
+
+@include xl {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
+}
+
+@include l {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
+}
+
+@include m {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
+}
+
+@include s {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
+
+  .projectData {
+    font-size: 18px;
+  }
+
+  .content {
+    h1 {
+      font-size: 32px;
+    }
+  }
+}
+
+@include xs {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
+
+  .projectData {
+    font-size: 18px;
+  }
+
+  .content {
+    h1 {
+      font-size: 32px;
+    }
+  }
+}

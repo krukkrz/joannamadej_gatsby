@@ -1,0 +1,46 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/rwd" as *;
+
+.testimonial {
+  border-color: $black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+@include xl {
+  .testimonial {
+    padding: 16px;
+  }
+}
+
+@include l {
+  .testimonial {
+    padding: 16px;
+  }
+}
+
+@include m {
+  .testimonial {
+    padding: 16px;
+  }
+}
+
+@include s {
+  .testimonial {
+    padding: 16px;
+  }
+}
+
+@include xs {
+  .testimonial {
+    padding: 16px;
+  }
+}
+
+@include xxs {
+  .testimonial {
+    padding: 16px;
+  }
+}
