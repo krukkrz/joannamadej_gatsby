@@ -7,7 +7,7 @@ import React from "react";
 const Testimonials = () => {
   const testimonials = getTestimonials();
   return (
-    <div>
+    <div id="testimonials">
       <h1>Testimonials</h1>
       <div className={styles.testimonials}>
         <div className={styles.testimonials_col1}>

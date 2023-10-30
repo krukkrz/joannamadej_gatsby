@@ -7,7 +7,7 @@ import React from "react";
 const MyProjects = () => {
   const projects = getProjects();
   return (
-    <div>
+    <div id="my_projects">
       <h1>My Projects</h1>
       <div className={styles.cards}>
         {projects.map((project) => (

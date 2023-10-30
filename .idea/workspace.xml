@@ -5,62 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423b9b5-d5ac-4a4b-88c4-b01c1b38acf5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/deskly_xl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/deskly_xxl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/guild/guild_xl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/guild/guild_xxl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/guild/works/guild_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/guild/works/guild_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/guild/works/guild_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/healthyme/healthyme_xl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/healthyme/healthyme_xxl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/healthyme/works/healthyme_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/healthyme/works/healthyme_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/omantel_xl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/omantel_xxl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/deskly_xl.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/deskly_xxl.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_9.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/guild/guild_xl.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/guild/guild_xxl.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/healthyme/healthyme_xl.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/healthyme/healthyme_xxl.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/healthyme/works/healthyme_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/healthyme/works/healthyme_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/omantel/omantel_xl.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/omantel/omantel_xxl.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/deskly/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/deskly/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/guild/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/guild/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/healthyme/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/healthyme/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/omantel/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/omantel/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about_me/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about_me/AboutMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/my_project/MyProjects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/my_project/MyProjects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/Testimonials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/Testimonials.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

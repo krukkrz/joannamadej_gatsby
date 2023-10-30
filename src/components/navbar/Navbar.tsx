@@ -17,10 +17,10 @@ const Navbar = () => {
     <>
       <div className={styles.navbar}>
         <Link to={"/"}>Home</Link>
-        <Link to={"/"}>My projects</Link>
-        <Link to={"/"}>About me</Link>
-        <Link to={"/"}>Testimonials</Link>
-        <Link to={"/"}>Contact</Link>
+        <Link to={"/#my_projects"}>My projects</Link>
+        <Link to={"/#about_me"}>About me</Link>
+        <Link to={"/#testimonials"}>Testimonials</Link>
+        <Link to={"/#contact"}>Contact</Link>
       </div>
       <div className={styles.hamburger} onClick={handleHamburgerClick}>
         <img src={hamburger} alt="hamburger" />

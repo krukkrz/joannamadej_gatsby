@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className={styles.aboutme}>
+    <div id="about_me" className={styles.aboutme}>
       <h1>About Me</h1>
       <p>
         I am a UX/UI Designer with 2 years of experience. I have designed new
