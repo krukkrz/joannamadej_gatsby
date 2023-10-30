@@ -11,6 +11,7 @@ type Props = {
 const Page = ({ children }: Props) => {
   return (
     <div className={styles.wrapper}>
+      <title>Joanna Madej - UX/UI Designer</title>
       <div className={styles.page}>
         <Navbar />
         {children}
