@@ -12,7 +12,6 @@ const config: GatsbyConfig = {
   plugins: [
       "gatsby-plugin-sass",
   ],
-  pathPrefix: "/joannamadej_gatsby"
 };
 
 export default config;
