@@ -75,7 +75,7 @@ const Index = () => {
         processes in the application to be consistent, so I had to make similar
         changes also in the flow where users opt to create polls without
         dedicated conversations. You can see those screens which I've prepared
-        for this purpose in the same Figma file.
+        for this purpose in the same <a href="https://www.figma.com/file/I7GdLv9k80cEmmJ6Ko8mb4/Guild---Poll-conversation?type=design&node-id=0%3A1&mode=design&t=0DjI4AlO65n9gYVm-1" target="_blank">Figma file</a>.
       </p>
     </ProjectPage>
   );
