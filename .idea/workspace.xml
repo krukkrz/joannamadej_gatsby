@@ -5,74 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423b9b5-d5ac-4a4b-88c4-b01c1b38acf5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby-browser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/hero/xl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/hamburger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/paper_plane.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/my_projects_tiles/placeholder.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/deskly_xl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/deskly_xxl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/deskly/work/deskly_9.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/guild/guild_xl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/guild/guild_xxl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/guild/works/guild_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/guild/works/guild_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/guild/works/guild_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/healthyme/healthyme_xl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/healthyme/healthyme_xxl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/healthyme/works/healthyme_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/healthyme/works/healthyme_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/omantel_xl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/omantel_xxl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/projects/omantel/works/work_4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/about_me/AboutMe.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/about_me/AboutMe.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/Contact.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/Footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/Hero.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/Hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/my_project/MyProjects.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/my_project/MyProjects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/my_project/card/Card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/my_project/card/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/menu/Menu.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/menu/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/page/Page.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/page/Page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/project/ProjectPage.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/project/ProjectPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/testimonials/Testimonials.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/testimonials/Testimonials.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/testimonials/testimonial/TestimonialCard.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/testimonials/testimonial/TestimonialCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/projects.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/testimonials.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/rwd.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
