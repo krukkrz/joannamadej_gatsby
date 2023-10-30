@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjoannamadej_gatsby=self.webpackChunkjoannamadej_gatsby||[]).push([[41],{808:function(e,a,n){n.r(a);var t=n(7294);a.default=()=>t.createElement("div",null,t.createElement("h1",null,"MVP"))}}]);
+//# sourceMappingURL=component---src-pages-mvp-tsx-fa3ed64224c5112ab14f.js.map
