@@ -1,11 +1,11 @@
 import { getProject } from "../../services/projects";
 import ProjectPage from "../../components/project/ProjectPage";
 // @ts-ignore
-import guild_1 from "../../assets/projects/guild/works/guild_1.svg";
+import guild_1 from "../../assets/projects/guild/works/guild_1.png";
 // @ts-ignore
-import guild_2 from "../../assets/projects/guild/works/guild_2.svg";
+import guild_2 from "../../assets/projects/guild/works/guild_2.png";
 // @ts-ignore
-import guild_3 from "../../assets/projects/guild/works/guild_3.svg";
+import guild_3 from "../../assets/projects/guild/works/guild_3.png";
 import React from "react";
 
 const Index = () => {

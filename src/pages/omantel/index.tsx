@@ -1,13 +1,13 @@
 import { getProject } from "../../services/projects";
 import ProjectPage from "../../components/project/ProjectPage";
 //@ts-ignore
-import work_1 from "../../assets/projects/omantel/works/work_1.svg";
+import work_1 from "../../assets/projects/omantel/works/work_1.png";
 //@ts-ignore
-import work_2 from "../../assets/projects/omantel/works/work_2.svg";
+import work_2 from "../../assets/projects/omantel/works/work_2.png";
 //@ts-ignore
-import work_3 from "../../assets/projects/omantel/works/work_3.svg";
+import work_3 from "../../assets/projects/omantel/works/work_3.png";
 //@ts-ignore
-import work_4 from "../../assets/projects/omantel/works/work_4.svg";
+import work_4 from "../../assets/projects/omantel/works/work_4.png";
 import React from "react";
 
 const Index = () => {

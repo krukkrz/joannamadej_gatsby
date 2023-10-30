@@ -1,21 +1,19 @@
 //@ts-ignore
-import placeholder from "../assets/my_projects_tiles/placeholder.svg";
+import omantelXL from "../assets/projects/omantel/omantel_xl.png";
 //@ts-ignore
-import omantelXL from "../assets/projects/omantel/omantel_xl.svg";
+import omantelXXL from "../assets/projects/omantel/omantel_xxl.png";
 //@ts-ignore
-import omantelXXL from "../assets/projects/omantel/omantel_xxl.svg";
+import guildXL from "../assets/projects/guild/guild_xl.png";
 //@ts-ignore
-import guildXL from "../assets/projects/guild/guild_xl.svg";
+import guildXXL from "../assets/projects/guild/guild_xxl.png";
 //@ts-ignore
-import guildXXL from "../assets/projects/guild/guild_xxl.svg";
+import desklyXL from "../assets/projects/deskly/deskly_xl.png";
 //@ts-ignore
-import desklyXL from "../assets/projects/deskly/deskly_xl.svg";
+import desklyXXL from "../assets/projects/deskly/deskly_xxl.png";
 //@ts-ignore
-import desklyXXL from "../assets/projects/deskly/deskly_xxl.svg";
+import healthymeXL from "../assets/projects/healthyme/healthyme_xl.png";
 //@ts-ignore
-import healthymeXL from "../assets/projects/healthyme/healthyme_xl.svg";
-//@ts-ignore
-import healthymeXXL from "../assets/projects/healthyme/healthyme_xxl.svg";
+import healthymeXXL from "../assets/projects/healthyme/healthyme_xxl.png";
 
 //@ts-ignore
 import deskly_tile from "../assets/my_projects_tiles/deskly_tile.png";

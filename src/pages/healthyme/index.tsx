@@ -1,9 +1,9 @@
 import ProjectPage from "../../components/project/ProjectPage";
 import { getProject } from "../../services/projects";
 //@ts-ignore
-import healthyme_1 from "../../assets/projects/healthyme/works/healthyme_1.svg";
+import healthyme_1 from "../../assets/projects/healthyme/works/healthyme_1.png";
 //@ts-ignore
-import healthyme_2 from "../../assets/projects/healthyme/works/healthyme_2.svg";
+import healthyme_2 from "../../assets/projects/healthyme/works/healthyme_2.png";
 import React from "react";
 
 const Index = () => {

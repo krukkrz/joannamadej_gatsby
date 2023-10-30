@@ -1,23 +1,23 @@
 import ProjectPage from "../../components/project/ProjectPage";
 import { getProject } from "../../services/projects";
 //@ts-ignore
-import deskly_1 from "../../assets/projects/deskly/work/deskly_1.svg";
+import deskly_1 from "../../assets/projects/deskly/work/deskly_1.png";
 //@ts-ignore
-import deskly_2 from "../../assets/projects/deskly/work/deskly_2.svg";
+import deskly_2 from "../../assets/projects/deskly/work/deskly_2.png";
 //@ts-ignore
-import deskly_3 from "../../assets/projects/deskly/work/deskly_3.svg";
+import deskly_3 from "../../assets/projects/deskly/work/deskly_3.png";
 //@ts-ignore
-import deskly_4 from "../../assets/projects/deskly/work/deskly_4.svg";
+import deskly_4 from "../../assets/projects/deskly/work/deskly_4.png";
 //@ts-ignore
-import deskly_5 from "../../assets/projects/deskly/work/deskly_5.svg";
+import deskly_5 from "../../assets/projects/deskly/work/deskly_5.png";
 //@ts-ignore
-import deskly_6 from "../../assets/projects/deskly/work/deskly_6.svg";
+import deskly_6 from "../../assets/projects/deskly/work/deskly_6.png";
 //@ts-ignore
-import deskly_7 from "../../assets/projects/deskly/work/deskly_7.svg";
+import deskly_7 from "../../assets/projects/deskly/work/deskly_7.png";
 //@ts-ignore
-import deskly_8 from "../../assets/projects/deskly/work/deskly_8.svg";
+import deskly_8 from "../../assets/projects/deskly/work/deskly_8.png";
 //@ts-ignore
-import deskly_9 from "../../assets/projects/deskly/work/deskly_9.svg";
+import deskly_9 from "../../assets/projects/deskly/work/deskly_9.png";
 import React from "react";
 
 const Index = () => {
