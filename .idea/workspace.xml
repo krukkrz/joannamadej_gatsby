@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423b9b5-d5ac-4a4b-88c4-b01c1b38acf5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/deskly/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/guild/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/healthyme/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/omantel/omantel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/krzysztof.kruk/priv/projects/joannamadej_gatsby/src",
+    "last_opened_file_path": "/Users/krzysztof.kruk/priv/projects/joannamadej_gatsby/src/pages",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -53,8 +53,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
