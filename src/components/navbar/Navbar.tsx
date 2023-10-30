@@ -13,19 +13,22 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const links = [
+      (<Link onClick={handleHamburgerClick} to={"/"}>Home</Link>),
+      (<Link onClick={handleHamburgerClick} to={"/#my_projects"}>My projects</Link>),
+      (<Link onClick={handleHamburgerClick} to={"/#about_me"}>About me</Link>),
+      (<Link onClick={handleHamburgerClick} to={"/#testimonials"}>Testimonials</Link>),
+      (<Link onClick={handleHamburgerClick} to={"/#contact"}>Contact</Link>)
+  ]
   return (
     <>
       <div className={styles.navbar}>
-        <Link to={"/"}>Home</Link>
-        <Link to={"/#my_projects"}>My projects</Link>
-        <Link to={"/#about_me"}>About me</Link>
-        <Link to={"/#testimonials"}>Testimonials</Link>
-        <Link to={"/#contact"}>Contact</Link>
+          {links}
       </div>
       <div className={styles.hamburger} onClick={handleHamburgerClick}>
         <img src={hamburger} alt="hamburger" />
       </div>
-      {isMenuOpen && <Menu onClose={handleHamburgerClick} />}
+      {isMenuOpen && <Menu links={links} onClose={handleHamburgerClick} />}
     </>
   );
 };

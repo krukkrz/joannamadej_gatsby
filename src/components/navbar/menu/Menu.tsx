@@ -7,6 +7,7 @@ import React from "react";
 
 type Props = {
   onClose: () => void;
+  links: any[];
 };
 
 const Menu = (props: Props) => {
@@ -16,15 +17,14 @@ const Menu = (props: Props) => {
       <div className={styles.menu}>
         <div className={styles.items_wrapper}>
           <div className={styles.items}>
-            <Link to={"/"}>Home</Link>
-            <hr />
-            <Link to={"/"}>My projects</Link>
-            <hr />
-            <Link to={"/"}>About me</Link>
-            <hr />
-            <Link to={"/"}>Testimonials</Link>
-            <hr />
-            <Link to={"/"}>Contact</Link>
+            {props.links.map((link, index) => {
+                return (
+                    <>
+                        {index == 0?null:<hr/>}
+                        {link}
+                    </>
+                )
+            })}
           </div>
         </div>
         <img src={close} alt="close" onClick={props.onClose} />
