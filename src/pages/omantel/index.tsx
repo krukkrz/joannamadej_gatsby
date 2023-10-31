@@ -64,13 +64,6 @@ const Index = () => {
           outlet and one for those who did not. Both designs can be seen below.
         </p>
         <img src={work_2} alt="work_2" />
-        <p>
-          I have prepared all elements used in the date and time picker in all
-          possible states. And I've done the same for all new checkout elements.
-          They can be seen below.
-        </p>
-        <img src={work_3} alt="work_3" />
-        <img src={work_4} alt="work_4" />
       </div>
     </ProjectPage>
   );
