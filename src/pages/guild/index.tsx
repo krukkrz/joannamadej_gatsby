@@ -6,9 +6,11 @@ import guild_1 from "../../assets/projects/guild/works/guild_1.png";
 import guild_2 from "../../assets/projects/guild/works/guild_2.png";
 // @ts-ignore
 import guild_3 from "../../assets/projects/guild/works/guild_3.png";
-import React from "react";
+import React, {useState} from "react";
+import ReactSimplyCarousel from 'react-simply-carousel';
 
 const Index = () => {
+  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   const guildProject = getProject("guild");
   return (
     <ProjectPage project={guildProject}>
@@ -31,7 +33,58 @@ const Index = () => {
         see screens from the flow of creating a poll and the associated
         conversation.
       </p>
-      <img src={guild_1} alt="guild_1" />
+      <ReactSimplyCarousel
+          activeSlideIndex={activeSlideIndex}
+          onRequestChange={setActiveSlideIndex}
+          itemsToScroll={1}
+          itemsToShow={1}
+          
+          forwardBtnProps={{
+            show: true,
+            children: ">",
+            style: {
+              width: 60,
+              height: 60,
+              minWidth: 60,
+              alignSelf: "center"
+            }
+          }}
+          backwardBtnProps={{
+            show: true,
+            children: "<",
+            style: {
+              width: 60,
+              height: 60,
+              minWidth: 60,
+              alignSelf: "center"
+            }
+          }}
+          dotsNav={{
+            show: true,
+            itemBtnProps: {
+              style: {
+                height: 16,
+                width: 16,
+                borderRadius: "50%",
+                border: 0
+              }
+            },
+            activeItemBtnProps: {
+              style: {
+                height: 16,
+                width: 16,
+                borderRadius: "50%",
+                border: 0,
+                background: "black"
+              }
+            }
+          }}
+      >
+        <img src={guild_1} alt="guild_1" />
+        <img src={guild_2} alt="guild_2" />
+        <img src={guild_3} alt="guild_3" />
+      </ReactSimplyCarousel>
+
       <p>
         The poll conversation is automatically created after poll creation. To
         not create a poll conversation user needs to uncheck the checkbox on the
