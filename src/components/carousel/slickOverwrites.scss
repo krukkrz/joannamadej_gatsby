@@ -1,0 +1,11 @@
+.slick-dots li button:before
+{
+  font-size: 14px;
+  line-height: 5px;
+}
+
+.slick-initialized .slick-slide {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}

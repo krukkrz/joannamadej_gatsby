@@ -1,16 +1,50 @@
 import { getProject } from "../../services/projects";
 import ProjectPage from "../../components/project/ProjectPage";
+
 // @ts-ignore
 import guild_1 from "../../assets/projects/guild/works/guild_1.png";
 // @ts-ignore
 import guild_2 from "../../assets/projects/guild/works/guild_2.png";
 // @ts-ignore
 import guild_3 from "../../assets/projects/guild/works/guild_3.png";
-import React, {useState} from "react";
-import ReactSimplyCarousel from 'react-simply-carousel';
+// @ts-ignore
+import guild_4 from "../../assets/projects/guild/works/guild_4.png";
+// @ts-ignore
+import guild_5 from "../../assets/projects/guild/works/guild_5.png";
+// @ts-ignore
+import guild_6 from "../../assets/projects/guild/works/guild_6.png";
+// @ts-ignore
+import guild_7 from "../../assets/projects/guild/works/guild_7.png";
+// @ts-ignore
+import guild_8 from "../../assets/projects/guild/works/guild_8.png";
+// @ts-ignore
+import guild_9 from "../../assets/projects/guild/works/guild_9.png";
+// @ts-ignore
+import guild_10 from "../../assets/projects/guild/works/guild_10.png";
+// @ts-ignore
+import guild_11 from "../../assets/projects/guild/works/guild_11.png";
+// @ts-ignore
+import guild_12 from "../../assets/projects/guild/works/guild_12.png";
+// @ts-ignore
+import guild_13 from "../../assets/projects/guild/works/guild_13.png";
+// @ts-ignore
+import guild_14 from "../../assets/projects/guild/works/guild_14.png";
+// @ts-ignore
+import guild_15 from "../../assets/projects/guild/works/guild_15.png";
+// @ts-ignore
+import guild_16 from "../../assets/projects/guild/works/guild_16.png";
+// @ts-ignore
+import guild_17 from "../../assets/projects/guild/works/guild_17.png";
+// @ts-ignore
+import guild_18 from "../../assets/projects/guild/works/guild_18.png";
+// @ts-ignore
+import guild_19 from "../../assets/projects/guild/works/guild_19.png";
+
+
+import React from "react";
+import Carousel from "../../components/carousel/Carousel";
 
 const Index = () => {
-  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   const guildProject = getProject("guild");
   return (
     <ProjectPage project={guildProject}>
@@ -33,58 +67,14 @@ const Index = () => {
         see screens from the flow of creating a poll and the associated
         conversation.
       </p>
-      <ReactSimplyCarousel
-          activeSlideIndex={activeSlideIndex}
-          onRequestChange={setActiveSlideIndex}
-          itemsToScroll={1}
-          itemsToShow={1}
-          
-          forwardBtnProps={{
-            show: true,
-            children: ">",
-            style: {
-              width: 60,
-              height: 60,
-              minWidth: 60,
-              alignSelf: "center"
-            }
-          }}
-          backwardBtnProps={{
-            show: true,
-            children: "<",
-            style: {
-              width: 60,
-              height: 60,
-              minWidth: 60,
-              alignSelf: "center"
-            }
-          }}
-          dotsNav={{
-            show: true,
-            itemBtnProps: {
-              style: {
-                height: 16,
-                width: 16,
-                borderRadius: "50%",
-                border: 0
-              }
-            },
-            activeItemBtnProps: {
-              style: {
-                height: 16,
-                width: 16,
-                borderRadius: "50%",
-                border: 0,
-                background: "black"
-              }
-            }
-          }}
-      >
+      <Carousel>
         <img src={guild_1} alt="guild_1" />
         <img src={guild_2} alt="guild_2" />
         <img src={guild_3} alt="guild_3" />
-      </ReactSimplyCarousel>
-
+        <img src={guild_4} alt="guild_4" />
+        <img src={guild_5} alt="guild_5" />
+        <img src={guild_6} alt="guild_6" />
+      </Carousel>
       <p>
         The poll conversation is automatically created after poll creation. To
         not create a poll conversation user needs to uncheck the checkbox on the
@@ -94,7 +84,15 @@ const Index = () => {
         Below you can see the screens from flow of answering to poll question
         and joining the connected conversation.
       </p>
-      <img src={guild_2} alt="guild_2" />
+      <Carousel>
+        <img src={guild_7} alt="guild_7" />
+        <img src={guild_8} alt="guild_8" />
+        <img src={guild_9} alt="guild_9" />
+        <img src={guild_10} alt="guild_10" />
+        <img src={guild_11} alt="guild_11" />
+        <img src={guild_12} alt="guild_12" />
+        <img src={guild_13} alt="guild_13" />
+      </Carousel>
       <p>
         When users enter the poll conversation for the first time they see the
         poll question. After answering it, they see the poll results and then
@@ -114,7 +112,14 @@ const Index = () => {
         <br />
         Below you can see screens from flow of closing and reopening poll.
       </p>
-      <img src={guild_3} alt="guild_3" />
+      <Carousel>
+        <img src={guild_14} alt="guild_14" />
+        <img src={guild_15} alt="guild_15" />
+        <img src={guild_16} alt="guild_16" />
+        <img src={guild_17} alt="guild_17" />
+        <img src={guild_18} alt="guild_18" />
+        <img src={guild_19} alt="guild_19" />
+      </Carousel>
       <p>
         The flows which I presented cover only the most common user journeys,
         but for implementation, I ensured coverage of all scenarios. You can
