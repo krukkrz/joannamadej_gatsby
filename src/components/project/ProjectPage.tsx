@@ -27,6 +27,12 @@ const ProjectPage = ({ project, children }: Props) => {
               </a>
             </div>
           )}
+          {project.projectOverview && (
+            <div>
+              <span>Project overview: </span>
+              {project.projectOverview}
+            </div>
+          )}
         </div>
         {children}
       </div>

@@ -53,6 +53,13 @@ a:active {
   text-decoration: none;
 }
 
+.small {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @include xl {
   h1 {
     font-size: 40px;
@@ -119,6 +126,9 @@ a:active {
     font-size: 16px;
     line-height: 24px;
   }
+  .small {
+    width: 100%
+  }
 }
 
 @include xs {
@@ -136,6 +146,9 @@ a:active {
     font-size: 16px;
     line-height: 24px;
   }
+  .small {
+    width: 100%
+  }
 }
 
 @include xxs {
@@ -152,5 +165,8 @@ a:active {
   body {
     font-size: 16px;
     line-height: 24px;
+  }
+  .small {
+    width: 100%
   }
 }

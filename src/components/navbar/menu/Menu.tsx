@@ -2,7 +2,7 @@
 import * as styles from "./Menu.module.scss";
 //@ts-ignore
 import close from "../../../assets/icons/close.svg";
-import {Link} from "gatsby";
+import { Link } from "gatsby";
 import React from "react";
 
 type Props = {
@@ -18,12 +18,12 @@ const Menu = (props: Props) => {
         <div className={styles.items_wrapper}>
           <div className={styles.items}>
             {props.links.map((link, index) => {
-                return (
-                    <>
-                        {index == 0?null:<hr/>}
-                        {link}
-                    </>
-                )
+              return (
+                <>
+                  {index == 0 ? null : <hr />}
+                  {link}
+                </>
+              );
             })}
           </div>
         </div>

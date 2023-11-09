@@ -40,7 +40,6 @@ import guild_18 from "../../assets/projects/guild/works/guild_18.png";
 // @ts-ignore
 import guild_19 from "../../assets/projects/guild/works/guild_19.png";
 
-
 import React from "react";
 import Carousel from "../../components/carousel/Carousel";
 
@@ -133,7 +132,14 @@ const Index = () => {
         processes in the application to be consistent, so I had to make similar
         changes also in the flow where users opt to create polls without
         dedicated conversations. You can see those screens which I've prepared
-        for this purpose in the same <a href="https://www.figma.com/file/I7GdLv9k80cEmmJ6Ko8mb4/Guild---Poll-conversation?type=design&node-id=0%3A1&mode=design&t=0DjI4AlO65n9gYVm-1" target="_blank">Figma file</a>.
+        for this purpose in the same{" "}
+        <a
+          href="https://www.figma.com/file/I7GdLv9k80cEmmJ6Ko8mb4/Guild---Poll-conversation?type=design&node-id=0%3A1&mode=design&t=0DjI4AlO65n9gYVm-1"
+          target="_blank"
+        >
+          Figma file
+        </a>
+        .
       </p>
     </ProjectPage>
   );

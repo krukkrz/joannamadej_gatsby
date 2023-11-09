@@ -23,7 +23,11 @@ const Contact = () => {
           <img src={paperPlane} alt="paper_plane" /> joannamonikamadej@gmail.com
         </div>
         <hr />
-        <a href="https://www.linkedin.com/in/jomadej/" target="_blank" className={styles.item}>
+        <a
+          href="https://www.linkedin.com/in/jomadej/"
+          target="_blank"
+          className={styles.item}
+        >
           <img src={linkedin} alt="paper_plane" /> /jomadej
         </a>
         <hr />

@@ -54,7 +54,11 @@ const Index = () => {
           the products, its date. All this information will also be included in
           the order history. Below, I present most of the screens that I have
           designed for this task in user flow order. Full flow with all screens
-          can be seen in <a target="_blank" href={omantelProject.figmaFile}>figma file</a>.
+          can be seen in{" "}
+          <a target="_blank" href={omantelProject.figmaFile}>
+            figma file
+          </a>
+          .
         </p>
         <img src={work_1} alt="work_1" />
         <p>

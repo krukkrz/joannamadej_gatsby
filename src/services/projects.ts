@@ -14,6 +14,10 @@ import desklyXXL from "../assets/projects/deskly/deskly_xxl.png";
 import healthymeXL from "../assets/projects/healthyme/healthyme_xl.png";
 //@ts-ignore
 import healthymeXXL from "../assets/projects/healthyme/healthyme_xxl.png";
+// @ts-ignore
+import tiloXL from "../assets/projects/tilo/tilo_xl.png";
+// @ts-ignore
+import tiloXXL from "../assets/projects/tilo/tilo_xxl.png";
 
 //@ts-ignore
 import deskly_tile from "../assets/my_projects_tiles/deskly_tile.png";
@@ -23,9 +27,28 @@ import guild_tile from "../assets/my_projects_tiles/guild_tile.png";
 import healthyme_tile from "../assets/my_projects_tiles/healthyme_tile.png";
 //@ts-ignore
 import omantel_tile from "../assets/my_projects_tiles/omantel_tile.png";
+//@ts-ignore
+import tilo_tile from "../assets/my_projects_tiles/tilo_tile.png";
+//@ts-ignore
+import placeholder from "../assets/my_projects_tiles/placeholder.svg";
 
 export const getProjects = (): Project[] => {
   return [
+    {
+      name: "tilo",
+      title: "Tilo",
+      description:
+        "To demonstrate booth my UI and UX skills I have designed a login and sign-up process to the educational platform with online courses, called Tilo.",
+      tile: tilo_tile,
+      url: "/tilo",
+      heroXL: tiloXL,
+      heroXXL: tiloXXL,
+      type: "Personal created for portfolio purposes",
+      figmaFile:
+        "https://www.figma.com/file/Jw3x7RgdcxGZBOHXTnPBYO/Edu-platform?type=design&node-id=0%3A1&mode=design&t=67C6faUG2nhowvhy-1",
+      projectOverview:
+        'To showcase my UI and UX skills, I created a login and sign-up process for a web app that offers online video courses, named "Tilo." I made designs for both desktop and mobile screens. Tilo is a fictional brand I made up for this portfolio.',
+    },
     {
       name: "guild",
       title: "Guild",
@@ -36,19 +59,8 @@ export const getProjects = (): Project[] => {
       heroXL: guildXL,
       heroXXL: guildXXL,
       type: "Commercial",
-      figmaFile: "https://www.figma.com/file/I7GdLv9k80cEmmJ6Ko8mb4/Guild---Poll-conversation?type=design&node-id=29-690288&mode=design",
-    },
-    {
-      name: "omantel",
-      title: "Omantel online store",
-      description:
-        "Omantel is the largest telecommunications company in Oman. In addition to telecommunications services, they also have an online store with electronics. While working at the Unriddl agency, I had the opportunity to work on the Omantel store project and design new features for it.",
-      tile: omantel_tile,
-      heroXL: omantelXL,
-      heroXXL: omantelXXL,
-      url: "/omantel",
-      type: "Commercial",
-      figmaFile: "https://www.figma.com/file/2IbjXBrTFRmJGBGSf5qGYh/Omantel---Outlet-Pickup?type=design&node-id=0%3A1&mode=design&t=gZm6KGg4fgbo0hqu-1",
+      figmaFile:
+        "https://www.figma.com/file/I7GdLv9k80cEmmJ6Ko8mb4/Guild---Poll-conversation?type=design&node-id=29-690288&mode=design",
     },
     {
       name: "deskly",
@@ -60,7 +72,21 @@ export const getProjects = (): Project[] => {
       heroXL: desklyXL,
       heroXXL: desklyXXL,
       type: "Personal created for portfolio purposes",
-      figmaFile: "https://www.figma.com/file/mjir1U2RbWz0mqUSGUChf8/Desk-booking-app?type=design&node-id=0%3A1&mode=design&t=no20rg3tREC66Dfb-1",
+      figmaFile:
+        "https://www.figma.com/file/mjir1U2RbWz0mqUSGUChf8/Desk-booking-app?type=design&node-id=0%3A1&mode=design&t=no20rg3tREC66Dfb-1",
+    },
+    {
+      name: "omantel",
+      title: "Omantel online store",
+      description:
+        "Omantel is the largest telecommunications company in Oman. In addition to telecommunications services, they also have an online store with electronics. While working at the Unriddl agency, I had the opportunity to work on the Omantel store project and design new features for it.",
+      tile: omantel_tile,
+      heroXL: omantelXL,
+      heroXXL: omantelXXL,
+      url: "/omantel",
+      type: "Commercial",
+      figmaFile:
+        "https://www.figma.com/file/2IbjXBrTFRmJGBGSf5qGYh/Omantel---Outlet-Pickup?type=design&node-id=0%3A1&mode=design&t=gZm6KGg4fgbo0hqu-1",
     },
     {
       name: "healthyme",
@@ -81,7 +107,7 @@ export const getProject = (name: ProjectName): Project => {
   return project as Project;
 };
 
-export type ProjectName = "omantel" | "guild" | "deskly" | "healthyme";
+export type ProjectName = "omantel" | "guild" | "deskly" | "healthyme" | "tilo";
 
 export type Project = {
   name: ProjectName;
@@ -93,4 +119,5 @@ export type Project = {
   url: string;
   figmaFile?: string;
   type?: string;
+  projectOverview?: string;
 };
