@@ -49,9 +49,6 @@ const Index = () => {
       <img className={styles.image} src={healthyme_2} alt="healthyme_2" />
       <img className={styles.image} src={healthyme_3} alt="healthyme_3" />
       <img className={styles.image} src={healthyme_4} alt="healthyme_4" />
-      <video className={styles.image} controls autoPlay>
-        <source src={healthyme_5} />
-      </video>
       <img className={styles.image} src={healthyme_6} alt="healthyme_6" />
       <img className={styles.image} src={healthyme_7} alt="healthyme_7" />
       <img className={styles.image} src={healthyme_8} alt="healthyme_8" />
