@@ -1,4 +1,12 @@
+@import "src/styles/rwd.scss";
+
 .carousel {
   padding: 30px;
   width: 100%;
+}
+
+@include s {
+  .arrow {
+    display: none;
+  }
 }

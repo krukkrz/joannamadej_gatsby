@@ -1,0 +1,19 @@
+@import "src/styles/rwd.scss";
+
+@include s {
+    .arrow {
+        display: none;
+    }
+}
+
+@include xs {
+    .arrow {
+        display: none;
+    }
+}
+
+@include xxs {
+    .arrow {
+        display: none;
+    }
+}
