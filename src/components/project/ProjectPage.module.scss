@@ -125,3 +125,24 @@
     }
   }
 }
+
+@include xxs {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
+
+  .projectData {
+    font-size: 18px;
+  }
+
+  .content {
+    h1 {
+      font-size: 32px;
+    }
+  }
+}
+
