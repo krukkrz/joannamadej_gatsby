@@ -32,45 +32,63 @@ import tilo_tile from "../assets/my_projects_tiles/tilo_tile.png";
 //@ts-ignore
 import placeholder from "../assets/my_projects_tiles/placeholder.svg";
 
+import {
+  CASE_STUDY,
+  COMMERCIAL, DARE_IT_CHALLENGE,
+  DESK_BOOKING_APP,
+  ECOMMERCE,
+  EDUCATIONAL_PLATFORM,
+  Tag,
+  UI,
+  UX_AUDIT,
+  UX_UI
+} from "./tags";
+
 export const getProjects = (): Project[] => {
   return [
     {
       name: "tilo",
       title: "Tilo",
       description:
-        "To demonstrate booth my UI and UX skills I have designed a login and sign-up process to the educational platform with online courses, called Tilo.",
+          "To demonstrate booth my UI and UX skills I have designed a login and sign-up process to the educational platform with online courses, called Tilo.",
       tile: tilo_tile,
       url: "/tilo",
       heroXL: tiloXL,
       heroXXL: tiloXXL,
       type: "Personal created for portfolio purposes",
       figmaFile:
-        "https://www.figma.com/file/Jw3x7RgdcxGZBOHXTnPBYO/Edu-platform?type=design&node-id=0%3A1&mode=design&t=67C6faUG2nhowvhy-1",
+          "https://www.figma.com/file/Jw3x7RgdcxGZBOHXTnPBYO/Edu-platform?type=design&node-id=0%3A1&mode=design&t=67C6faUG2nhowvhy-1",
       projectOverview:
-        'To showcase my UI and UX skills, I created a login and sign-up process for a web app that offers online video courses, named "Tilo." I made designs for both desktop and mobile screens. Tilo is a fictional brand I made up for this portfolio.',
-
+          'To showcase my UI and UX skills, I created a login and sign-up process for a web app that offers online video courses, named "Tilo." I made designs for both desktop and mobile screens. Tilo is a fictional brand I made up for this portfolio.',
+      tags: [CASE_STUDY, UX_UI, EDUCATIONAL_PLATFORM],
     },
     {
       name: "guild",
       title: "Guild",
       description:
-        "The guild app is a social app created to make networking easier. While working at Monterail Software House, I had the opportunity to design new features for the Guild app and redesign old ones.",
+          "The guild app is a social app created to make networking easier. While working at Monterail Software House, I had the opportunity to design new features for the Guild app and redesign old ones.",
       tile: guild_tile,
       url: "/guild",
       heroXL: guildXL,
       heroXXL: guildXXL,
       type: "Commercial",
       figmaFile:
-        "https://www.figma.com/file/I7GdLv9k80cEmmJ6Ko8mb4/Guild---Poll-conversation?type=design&node-id=29-690288&mode=design",
-      tags: [
-        {
-          name: "Commercial",
-          color: TagColor.LIGHT_BLUE
-        },
-        {
-          name: "UX/UI",
-        },
-      ],
+          "https://www.figma.com/file/I7GdLv9k80cEmmJ6Ko8mb4/Guild---Poll-conversation?type=design&node-id=29-690288&mode=design",
+      tags: [COMMERCIAL, UX_UI],
+    },
+    {
+      name: "omantel",
+      title: "Omantel online store",
+      description:
+          "Omantel is the largest telecommunications company in Oman. In addition to telecommunications services, they also have an online store with electronics. While working at the Unriddl agency, I had the opportunity to work on the Omantel store project and design new features for it.",
+      tile: omantel_tile,
+      heroXL: omantelXL,
+      heroXXL: omantelXXL,
+      url: "/omantel",
+      type: "Commercial",
+      figmaFile:
+          "https://www.figma.com/file/2IbjXBrTFRmJGBGSf5qGYh/Omantel---Outlet-Pickup?type=design&node-id=0%3A1&mode=design&t=gZm6KGg4fgbo0hqu-1",
+      tags: [COMMERCIAL, UX_UI, ECOMMERCE],
     },
     {
       name: "deskly",
@@ -84,19 +102,7 @@ export const getProjects = (): Project[] => {
       type: "Personal created for portfolio purposes",
       figmaFile:
         "https://www.figma.com/file/mjir1U2RbWz0mqUSGUChf8/Desk-booking-app?type=design&node-id=0%3A1&mode=design&t=no20rg3tREC66Dfb-1",
-    },
-    {
-      name: "omantel",
-      title: "Omantel online store",
-      description:
-        "Omantel is the largest telecommunications company in Oman. In addition to telecommunications services, they also have an online store with electronics. While working at the Unriddl agency, I had the opportunity to work on the Omantel store project and design new features for it.",
-      tile: omantel_tile,
-      heroXL: omantelXL,
-      heroXXL: omantelXXL,
-      url: "/omantel",
-      type: "Commercial",
-      figmaFile:
-        "https://www.figma.com/file/2IbjXBrTFRmJGBGSf5qGYh/Omantel---Outlet-Pickup?type=design&node-id=0%3A1&mode=design&t=gZm6KGg4fgbo0hqu-1",
+      tags: [CASE_STUDY, UX_UI, UX_AUDIT, DESK_BOOKING_APP]
     },
     {
       name: "healthyme",
@@ -108,6 +114,7 @@ export const getProjects = (): Project[] => {
       heroXL: healthymeXL,
       heroXXL: healthymeXXL,
       type: "Personal for Dare IT UI Challenge Competition",
+      tags: [UI, DARE_IT_CHALLENGE],
     },
   ];
 };
@@ -132,13 +139,3 @@ export type Project = {
   projectOverview?: string;
   tags?: Tag[];
 };
-
-export type Tag = {
-    name: string;
-    color?: TagColor;
-}
-
-export enum TagColor {
-  LIGHT_BLUE = "#DCF6FF",
-  DEFAULT = "white"
-}

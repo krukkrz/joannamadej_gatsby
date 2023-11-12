@@ -41,9 +41,9 @@ const Index = () => {
         have prepared a user interface design for the “HealthyMe” application.
       </p>
       <img className={styles.image} src={healthyme_0} alt="healthyme_0" />
-      <p>
+      <p style={{textAlign:"center"}}>
         You can find my user interface design for the "HealthyMe" application
-        below, along with a video demonstrating the clickable prototype.
+        below.
       </p>
       <img className={styles.image} src={healthyme_1} alt="healthyme_1" />
       <img className={styles.image} src={healthyme_2} alt="healthyme_2" />
