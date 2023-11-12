@@ -48,7 +48,7 @@ export const getProjects = (): Project[] => {
   return [
     {
       name: "tilo",
-      title: "Tilo",
+      title: "My design journey: login and sign-up process for an online course platform",
       description:
           "To demonstrate booth my UI and UX skills I have designed a login and sign-up process to the educational platform with online courses, called Tilo.",
       tile: tilo_tile,
@@ -64,7 +64,7 @@ export const getProjects = (): Project[] => {
     },
     {
       name: "guild",
-      title: "Guild",
+      title: "How I designed a new poll conversation feature for the Guild App?",
       description:
           "The guild app is a social app created to make networking easier. While working at Monterail Software House, I had the opportunity to design new features for the Guild app and redesign old ones.",
       tile: guild_tile,
@@ -78,7 +78,7 @@ export const getProjects = (): Project[] => {
     },
     {
       name: "omantel",
-      title: "Omantel online store",
+      title: "How I designed the new outlet pickup feature that redefined the Omantel online store experience?",
       description:
           "Omantel is the largest telecommunications company in Oman. In addition to telecommunications services, they also have an online store with electronics. While working at the Unriddl agency, I had the opportunity to work on the Omantel store project and design new features for it.",
       tile: omantel_tile,
@@ -92,7 +92,7 @@ export const getProjects = (): Project[] => {
     },
     {
       name: "deskly",
-      title: "Deskly",
+      title: "How I designed a platform for desk booking?",
       description:
         "UX case study, created to showcase my design process and UX skills. As part of the project, I conducted a UX audit and in-depth interviews with users, and I designed screens for Deskly - a desk booking application.",
       tile: deskly_tile,
@@ -106,7 +106,7 @@ export const getProjects = (): Project[] => {
     },
     {
       name: "healthyme",
-      title: "HealthyMe",
+      title: "I received an honorable mention in the Dare IT UI Challenge",
       description:
         "HealthyMe is an app that aims to support users in implementing healthy habits into their daily routines. I created an interface design for it based on the provided lo-fi mockups. Designs were made for the Dare IT UI Challenge competition in which I recived an honorable mention.",
       tile: healthyme_tile,
