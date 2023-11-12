@@ -2,46 +2,31 @@
 
 .card {
   width: 47%;
-  height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 32px;
   text-align: justify;
-}
 
-.card img {
-  width: 100%;
-  height: auto;
-}
-
-@include l {
-  .card {
-    height: 580px;
+  img {
+    width: 100%;
+    height: auto;
+    margin: 0;
   }
-}
-
-@include m {
-  .card {
-    height: 570px;
-  }
-}
-
-@include s {
-  .card {
-    height: 560px;
+  h2 {
+    margin-top:24px;
+    margin-bottom: 24px;
   }
 }
 
 @include xs {
   .card {
     width: 100%;
-    height: 580px;
   }
 }
 
 @include xxs {
   .card {
     width: 100%;
-    height: 580px;
   }
 }
