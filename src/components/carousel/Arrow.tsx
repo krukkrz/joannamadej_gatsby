@@ -15,8 +15,6 @@ type ArrowProps = {
 };
 
 const Arrow = ({ style, className, direction, onClick }: ArrowProps) => {
-  console.log(className);
-
   return (
     <div className={styles.arrow}>
       <img
