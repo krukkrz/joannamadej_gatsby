@@ -48,6 +48,7 @@ export const getProjects = (): Project[] => {
         "https://www.figma.com/file/Jw3x7RgdcxGZBOHXTnPBYO/Edu-platform?type=design&node-id=0%3A1&mode=design&t=67C6faUG2nhowvhy-1",
       projectOverview:
         'To showcase my UI and UX skills, I created a login and sign-up process for a web app that offers online video courses, named "Tilo." I made designs for both desktop and mobile screens. Tilo is a fictional brand I made up for this portfolio.',
+
     },
     {
       name: "guild",
@@ -61,6 +62,15 @@ export const getProjects = (): Project[] => {
       type: "Commercial",
       figmaFile:
         "https://www.figma.com/file/I7GdLv9k80cEmmJ6Ko8mb4/Guild---Poll-conversation?type=design&node-id=29-690288&mode=design",
+      tags: [
+        {
+          name: "Commercial",
+          color: TagColor.LIGHT_BLUE
+        },
+        {
+          name: "UX/UI",
+        },
+      ],
     },
     {
       name: "deskly",
@@ -120,4 +130,15 @@ export type Project = {
   figmaFile?: string;
   type?: string;
   projectOverview?: string;
+  tags?: Tag[];
 };
+
+export type Tag = {
+    name: string;
+    color?: TagColor;
+}
+
+export enum TagColor {
+  LIGHT_BLUE = "#DCF6FF",
+  DEFAULT = "white"
+}

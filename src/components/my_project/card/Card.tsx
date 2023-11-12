@@ -3,6 +3,7 @@ import { Project } from "../../../services/projects";
 import * as styles from "./Card.module.scss";
 import Button from "../../button/Button";
 import React from "react";
+import Tags from "../../tags/Tags";
 
 const Card = (project: Project) => {
   return (
@@ -10,6 +11,7 @@ const Card = (project: Project) => {
       <div>
         <img src={project.tile} alt={project.title} />
         <h2>{project.title}</h2>
+        <Tags tags={project.tags} />
         <p>{project.description}</p>
       </div>
       <Button text="Read more" url={project.url} />

@@ -1,0 +1,13 @@
+@import "src/styles/variables.scss";
+
+.tag {
+  border-style: solid;
+  border-color: $gray;
+  border-width: 2px;
+  border-radius: 24px;
+
+  padding: 8px 16px;
+
+  min-width: 24px;
+  text-align: center;
+}
