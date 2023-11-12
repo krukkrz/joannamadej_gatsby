@@ -44,3 +44,7 @@ export const UI: Tag = {
 export const DARE_IT_CHALLENGE: Tag = {
     name: "DareITChallenge",
 }
+
+export const SOCIAL_APP: Tag = {
+    name: "Social app",
+}
