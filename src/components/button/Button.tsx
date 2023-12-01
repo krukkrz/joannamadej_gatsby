@@ -9,11 +9,13 @@ type Props = {
 };
 const Button = ({ text, url }: Props) => {
   return (
-    <Link to={url}>
-      <div className={styles.button}>
-        <div>{text}</div>
+      <div className={styles.wrapper}>
+        <Link to={url}>
+          <div className={styles.button}>
+            <div>{text}</div>
+          </div>
+        </Link>
       </div>
-    </Link>
   );
 };
 

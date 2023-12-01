@@ -1,9 +1,15 @@
 @use "../../styles/variables.scss" as *;
 
+.wrapper {
+  display: flex;
+}
+
 .button {
   background-color: $black;
+  border-radius: 22px;
   color: white;
-  width: 115px;
+  padding-left: 28px;
+  padding-right: 28px;
   height: 44px;
   font-size: 16px;
   font-weight: 600;
