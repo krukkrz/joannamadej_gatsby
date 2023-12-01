@@ -44,12 +44,6 @@
   }
 }
 
-.heroXXL {
-  width: 100%;
-  margin-top: 32px;
-  margin-bottom: 56px;
-}
-
 .heroXL {
   width: 100%;
   margin-top: 32px;
@@ -58,40 +52,24 @@
 }
 
 @include xl {
-  .heroXXL {
-    display: none;
-  }
-
   .heroXL {
     display: block;
   }
 }
 
 @include l {
-  .heroXXL {
-    display: none;
-  }
-
   .heroXL {
     display: block;
   }
 }
 
 @include m {
-  .heroXXL {
-    display: none;
-  }
-
   .heroXL {
     display: block;
   }
 }
 
 @include s {
-  .heroXXL {
-    display: none;
-  }
-
   .heroXL {
     display: block;
   }
@@ -108,10 +86,6 @@
 }
 
 @include xs {
-  .heroXXL {
-    display: none;
-  }
-
   .heroXL {
     display: block;
   }
@@ -128,10 +102,6 @@
 }
 
 @include xxs {
-  .heroXXL {
-    display: none;
-  }
-
   .heroXL {
     display: block;
   }

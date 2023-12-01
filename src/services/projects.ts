@@ -1,23 +1,13 @@
 //@ts-ignore
 import omantelXL from "../assets/projects/omantel/omantel_xl.png";
 //@ts-ignore
-import omantelXXL from "../assets/projects/omantel/omantel_xxl.png";
-//@ts-ignore
 import guildXL from "../assets/projects/guild/guild_xl.png";
-//@ts-ignore
-import guildXXL from "../assets/projects/guild/guild_xxl.png";
 //@ts-ignore
 import desklyXL from "../assets/projects/deskly/deskly_xl.png";
 //@ts-ignore
-import desklyXXL from "../assets/projects/deskly/deskly_xxl.png";
-//@ts-ignore
 import healthymeXL from "../assets/projects/healthyme/healthyme_xl.png";
-//@ts-ignore
-import healthymeXXL from "../assets/projects/healthyme/healthyme_xxl.png";
 // @ts-ignore
 import tiloXL from "../assets/projects/tilo/tilo_xl.png";
-// @ts-ignore
-import tiloXXL from "../assets/projects/tilo/tilo_xxl.png";
 
 //@ts-ignore
 import deskly_tile from "../assets/my_projects_tiles/deskly_tile.png";
@@ -54,7 +44,6 @@ export const getProjects = (): Project[] => {
       tile: tilo_tile,
       url: "/tilo",
       heroXL: tiloXL,
-      heroXXL: tiloXXL,
       type: "Personal created for portfolio purposes",
       figmaFile:
           "https://www.figma.com/file/Jw3x7RgdcxGZBOHXTnPBYO/Edu-platform?type=design&node-id=0%3A1&mode=design&t=67C6faUG2nhowvhy-1",
@@ -70,7 +59,6 @@ export const getProjects = (): Project[] => {
       tile: guild_tile,
       url: "/guild",
       heroXL: guildXL,
-      heroXXL: guildXXL,
       type: "Commercial",
       figmaFile:
           "https://www.figma.com/file/I7GdLv9k80cEmmJ6Ko8mb4/Guild---Poll-conversation?type=design&node-id=29-690288&mode=design",
@@ -83,7 +71,6 @@ export const getProjects = (): Project[] => {
           "Omantel is the largest telecommunications company in Oman. In addition to telecommunications services, they also have an online store with electronics. While working at the Unriddl agency, I had the opportunity to work on the Omantel store project and design new features for it.",
       tile: omantel_tile,
       heroXL: omantelXL,
-      heroXXL: omantelXXL,
       url: "/omantel",
       type: "Commercial",
       figmaFile:
@@ -98,7 +85,6 @@ export const getProjects = (): Project[] => {
       tile: deskly_tile,
       url: "/deskly",
       heroXL: desklyXL,
-      heroXXL: desklyXXL,
       type: "Personal created for portfolio purposes",
       figmaFile:
         "https://www.figma.com/file/mjir1U2RbWz0mqUSGUChf8/Desk-booking-app?type=design&node-id=0%3A1&mode=design&t=no20rg3tREC66Dfb-1",
@@ -112,7 +98,6 @@ export const getProjects = (): Project[] => {
       tile: healthyme_tile,
       url: "/healthyme",
       heroXL: healthymeXL,
-      heroXXL: healthymeXXL,
       type: "Personal for Dare IT UI Challenge Competition",
       tags: [UI, DARE_IT_CHALLENGE],
     },
@@ -132,7 +117,6 @@ export type Project = {
   description: string;
   tile: any;
   heroXL?: any;
-  heroXXL?: any;
   url: string;
   figmaFile?: string;
   type?: string;

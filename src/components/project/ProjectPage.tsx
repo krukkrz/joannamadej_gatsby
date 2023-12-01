@@ -11,7 +11,6 @@ type Props = {
 const ProjectPage = ({ project, children }: Props) => {
   return (
     <Page>
-      <img src={project.heroXXL} alt="hero" className={styles.heroXXL} />
       <img src={project.heroXL} alt="hero" className={styles.heroXL} />
       <div className={styles.content}>
         <h1>{project.title}</h1>
