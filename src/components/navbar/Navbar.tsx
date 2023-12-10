@@ -30,6 +30,7 @@ const Navbar = () => {
       Contact
     </Link>,
   ];
+
   return (
     <>
       <div className={styles.navbar}>{links}</div>

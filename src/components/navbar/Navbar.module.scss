@@ -7,6 +7,10 @@
   font-weight: $medium;
   padding-top: 24px;
   padding-bottom: 24px;
+  background-color: white;
+  opacity: 0.95;
+  position: sticky;
+  top: 0;
 }
 
 .hamburger {
@@ -27,13 +31,20 @@
   }
 
   .hamburger {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    height: 48px;
-    width: 48px;
+    img {
+      height: 48px;
+      width: 48px;
+    }
+
+    background-color: white;
+    opacity: 0.95;
+    position: sticky;
+    top: 0;
   }
 }
 
