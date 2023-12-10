@@ -5,6 +5,8 @@
   display: flex;
   gap: 64px;
   font-weight: $medium;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .hamburger {
@@ -25,6 +27,8 @@
   }
 
   .hamburger {
+    padding-top: 16px;
+    padding-bottom: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
