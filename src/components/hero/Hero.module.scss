@@ -74,30 +74,35 @@
 
 @include xs {
   .hero {
-    margin-top: 120px;
-    margin-bottom: 104px;
+    margin-top: 48px;
+    margin-bottom: 80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+
     img {
-      display: none;
+      width: 246px;
     }
     p {
       font-size: 36px;
-      margin-left: 0;
-      margin-right: 0;
+      margin: 0;
     }
   }
 }
 
 @include xxs {
   .hero {
-    margin-top: 96px;
-    margin-bottom: 128px;
+    margin-top: 48px;
+    margin-bottom: 96px;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
     img {
-      display: none;
+      width: 246px;
     }
     p {
       font-size: 36px;
-      margin-left: 0;
-      margin-right: 0;
+      margin: 0;
     }
   }
 }
