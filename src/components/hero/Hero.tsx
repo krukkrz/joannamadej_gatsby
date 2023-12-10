@@ -9,11 +9,15 @@ const Hero = () => {
     <div className={styles.hero}>
       <div className={styles.headline}>
         <p>
-          Hi, Jo here!
-          <br />
-          I am UX/UI
-          <br />
-          Designer.
+            Hi, Jo here 👋
+            <br />
+            UX/UI
+            <br />
+            designer 👩‍💻
+            <br />
+            with 2 years
+            <br/>
+            of experience.
         </p>
       </div>
       <img src={joannaxl} alt="Joanna" />

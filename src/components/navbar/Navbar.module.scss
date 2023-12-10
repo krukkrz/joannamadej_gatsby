@@ -54,10 +54,19 @@
   }
 
   .hamburger {
+    padding-top: 8px;
+    padding-bottom: 8px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    height: 48px;
-    width: 48px;
+    img {
+      height: 48px;
+      width: 48px;
+    }
+
+    background-color: white;
+    opacity: 0.95;
+    position: sticky;
+    top: 0;
   }
 }
