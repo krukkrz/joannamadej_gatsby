@@ -82,7 +82,7 @@ const Index = () => {
         registration flow in the Udemy app.
       </p>
       <img src={tilo_0} alt="tilo_0" />
-      <img src={tilo_1} alt="tilo_1" />
+      <img className="small" src={tilo_1} alt="tilo_1" />
       <p>
         Next, I read some articles about best practices in the login and
         registration process. I wanted to learn from the best sources, so I
