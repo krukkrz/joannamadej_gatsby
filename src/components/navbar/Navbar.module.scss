@@ -2,15 +2,30 @@
 @use "../../styles/rwd.scss" as *;
 
 .navbar {
-  display: flex;
-  gap: 64px;
-  font-weight: $medium;
-  padding-top: 24px;
-  padding-bottom: 24px;
   background-color: white;
   opacity: 0.95;
   position: sticky;
   top: 0;
+  z-index: 10;
+
+  //width: 100%;
+}
+
+.links {
+  font-weight: $medium;
+  display: flex;
+  gap: 64px;
+
+  width: 100%;
+  padding-left: 88px;
+  padding-right: 88px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .hamburger {
@@ -18,7 +33,33 @@
   cursor: pointer;
 }
 
+@include xl {
+  .links {
+    padding-left: 88px;
+    padding-right: 88px;
+  }
+}
+
+@include l {
+  .links {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+}
+
+@include m {
+  .links {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
 @include s {
+  .links {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
   .navbar {
     justify-content: space-between;
     gap: 20px;
@@ -33,6 +74,9 @@
   .hamburger {
     padding-top: 8px;
     padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+
     display: flex;
     justify-content: left;
     align-items: center;
@@ -56,6 +100,9 @@
   .hamburger {
     padding-top: 8px;
     padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+
     display: flex;
     justify-content: left;
     align-items: center;

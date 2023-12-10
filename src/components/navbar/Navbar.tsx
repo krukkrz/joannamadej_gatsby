@@ -33,7 +33,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={styles.navbar}>{links}</div>
+      <div className={styles.navbar}>
+        <div className={styles.links}>
+          {links}
+        </div>
+      </div>
       <div className={styles.hamburger} onClick={handleHamburgerClick}>
         <img src={hamburger} alt="hamburger" />
       </div>
