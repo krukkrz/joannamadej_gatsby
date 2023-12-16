@@ -37,6 +37,17 @@ import {
 export const getProjects = (): Project[] => {
   return [
     {
+      name: "guild",
+      title: "How did I design a new poll conversation feature for the Guild App?",
+      description:
+          "The guild app is a social app created to make networking easier. While working at Monterail Software House, I had the opportunity to design new features for the Guild app and redesign old ones.",
+      tile: guild_tile,
+      url: "/guild",
+      heroXL: guildXL,
+      type: "Commercial",
+      tags: [COMMERCIAL, UX_UI, SOCIAL_APP],
+    },
+    {
       name: "tilo",
       title: "My design journey: login and sign-up process for an online course platform",
       description:
@@ -50,19 +61,6 @@ export const getProjects = (): Project[] => {
       projectOverview:
           'To showcase my UI and UX skills, I created a login and sign-up process for a web app that offers online video courses, named "Tilo." I made designs for both desktop and mobile screens. Tilo is a fictional brand I made up for this portfolio.',
       tags: [CASE_STUDY, UX_UI, EDUCATIONAL_PLATFORM],
-    },
-    {
-      name: "guild",
-      title: "How did I design a new poll conversation feature for the Guild App?",
-      description:
-          "The guild app is a social app created to make networking easier. While working at Monterail Software House, I had the opportunity to design new features for the Guild app and redesign old ones.",
-      tile: guild_tile,
-      url: "/guild",
-      heroXL: guildXL,
-      type: "Commercial",
-      figmaFile:
-          "https://www.figma.com/file/I7GdLv9k80cEmmJ6Ko8mb4/Guild---Poll-conversation?type=design&node-id=29-690288&mode=design",
-      tags: [COMMERCIAL, UX_UI, SOCIAL_APP],
     },
     {
       name: "omantel",
