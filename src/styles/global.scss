@@ -56,10 +56,17 @@ a:active {
 }
 
 .small {
-    width: 60%;
+    width: 60% !important;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.medium {
+  width: 70% !important;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
@@ -115,6 +122,9 @@ a:active {
   .small {
     width: 100%
   }
+  .medium {
+    width: 100%
+  }
 }
 
 @include xs {
@@ -133,6 +143,9 @@ a:active {
   .small {
     width: 100%
   }
+  .medium {
+    width: 100%
+  }
 }
 
 @include xxs {
@@ -149,6 +162,9 @@ a:active {
     line-height: 24px;
   }
   .small {
+    width: 100%
+  }
+  .medium {
     width: 100%
   }
 }

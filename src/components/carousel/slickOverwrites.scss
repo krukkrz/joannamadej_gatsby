@@ -19,7 +19,11 @@
   float: none;
   display: inline-block;
   vertical-align: middle;
+  img {
+    display: block !important;
+  }
 }
+
 
 @include xxs {
   .slick-dots {

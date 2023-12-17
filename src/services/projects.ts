@@ -40,7 +40,7 @@ export const getProjects = (): Project[] => {
       name: "guild",
       title: "How did I design a new poll conversation feature for the Guild App?",
       description:
-          "The guild app is a social app created to make networking easier. While working at Monterail Software House, I had the opportunity to design new features for the Guild app and redesign old ones.",
+          "The guild app is a social app created to make networking easier. While working at Monterail Software House, I had an opportunity to design new poll conversation feature for the Guild app.",
       tile: guild_tile,
       url: "/guild",
       heroXL: guildXL,

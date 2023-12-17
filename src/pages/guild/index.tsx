@@ -136,19 +136,19 @@ const Index = () => {
                 answers. I wanted to avoid this situation, so I reduced the size of all the elements. Below, you can see
                 how mobile screens, showing the flow of answering the poll, looked before and after I made some changes.
                 <Carousel>
-                    <img src={guild_7} alt="guild_7"/>
-                    <img src={guild_8} alt="guild_8"/>
-                    {shouldDisplay ? <img src={guild_8_desktop} alt="guild_8_desktop"/> : ''}
+                    <img className="medium" src={guild_7} alt="guild_7"/>
+                    <img className="medium" src={guild_8} alt="guild_8"/>
+                    {shouldDisplay ? <img src={guild_8_desktop} className="medium" alt="guild_8_desktop"/> : ''}
                 </Carousel>
                 <Carousel>
-                    <img src={guild_9} alt="guild_9"/>
-                    <img src={guild_10} alt="guild_10"/>
-                    {shouldDisplay ? <img src={guild_10_desktop} alt="guild_10_desktop"/> : ''}
+                    <img className="medium" src={guild_9} alt="guild_9"/>
+                    <img className="medium" src={guild_10} alt="guild_10"/>
+                    {shouldDisplay ? <img className="medium" src={guild_10_desktop} alt="guild_10_desktop"/> : ''}
                 </Carousel>
                 <Carousel>
-                    <img src={guild_11} alt="guild_11"/>
-                    <img src={guild_12} alt="guild_12"/>
-                    {shouldDisplay ? <img src={guild_12_desktop} alt="guild_12_desktop"/> : ''}
+                    <img className="medium" src={guild_11} alt="guild_11"/>
+                    <img className="medium" src={guild_12} alt="guild_12"/>
+                    {shouldDisplay ? <img className="medium" src={guild_12_desktop} alt="guild_12_desktop"/> : ''}
                 </Carousel>
                 This way, I refreshed the flow of responding to polls. My next step was designing a screen with a poll
                 conversation on the group feed. I wanted the poll conversation to look visually different from a regular
@@ -160,7 +160,7 @@ const Index = () => {
                 differs.
             </p>
             <p className="center">
-                <img src={guild_13} alt="guild_13"/>
+                <img className="medium" src={guild_13} alt="guild_13"/>
             </p>
             <p>
                 In the beginning, I was considering whose avatar to include in the view of the poll conversation on the
@@ -175,7 +175,7 @@ const Index = () => {
                 slightly different for the ones who already took part in the poll. Below, you can see how they differ.
             </p>
             <p className="center">
-                <img src={guild_14} alt="guild_14"/>
+                <img className="small" src={guild_14} alt="guild_14"/>
             </p>
             <p>
                 I wanted also to differentiate the design of answered and not-answered poll conversations so users could
@@ -184,7 +184,7 @@ const Index = () => {
                 tooltip shows up.
             </p>
             <p className="center">
-                <img src={guild_15} alt="guild_15"/>
+                <img className="medium" src={guild_15} alt="guild_15"/>
             </p>
             <p>
                 In the beginning, I made this ‘check’ icon pink to maintain color consistency with the rest of the
@@ -192,7 +192,7 @@ const Index = () => {
                 notification or an unread message so I have changed it to the second primary guild color - turquoise.
             </p>
             <p className="center">
-                <img src={guild_16} alt="guild_16"/>
+                <img className="medium" src={guild_16} alt="guild_16"/>
             </p>
             <p>
                 Next, I focused on designing the screen with the poll conversation itself. I didn't want to reinvent the
@@ -226,7 +226,7 @@ const Index = () => {
                 changed the color of the closed poll conversation icon to grey.
             </p>
             <p className="center">
-                <img src={guild_19} alt="guild_19"/>
+                <img className="medium" src={guild_19} alt="guild_19"/>
             </p>
             <p>
                 I changed also the color of the bars on the results page for the closed poll conversation to gray to
