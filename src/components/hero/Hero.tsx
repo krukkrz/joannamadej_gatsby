@@ -15,7 +15,7 @@ const Hero = () => {
             <br />
             designer 👩‍💻
             <br />
-            with 2 years
+            with 3 years
             <br/>
             of experience.
         </p>
