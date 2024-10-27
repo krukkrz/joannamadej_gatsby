@@ -11,13 +11,13 @@ const Hero = () => {
         <p>
             Hi, Jo here 👋
             <br />
-            UX/UI
+            Product
             <br />
             designer 👩‍💻
             <br />
             with 3 years
             <br/>
-            of experience.
+            of experience
         </p>
       </div>
       <img src={joannaxl} alt="Joanna" />

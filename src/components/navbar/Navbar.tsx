@@ -14,19 +14,19 @@ const Navbar = () => {
   };
 
   const links = [
-    <Link onClick={handleHamburgerClick} to={"/"}>
+    <Link onClick={handleHamburgerClick} to={"/"} key={"home"}>
       Home
     </Link>,
-    <Link onClick={handleHamburgerClick} to={"/#my_projects"}>
+    <Link onClick={handleHamburgerClick} to={"/#my_projects"} key={"my_projects"}>
       My projects
     </Link>,
-    <Link onClick={handleHamburgerClick} to={"/#about_me"}>
+    <Link onClick={handleHamburgerClick} to={"/#about_me"} key={"about_me"}>
       About me
     </Link>,
-    <Link onClick={handleHamburgerClick} to={"/#testimonials"}>
+    <Link onClick={handleHamburgerClick} to={"/#testimonials"} key={"testimonials"}>
       Testimonials
     </Link>,
-    <Link onClick={handleHamburgerClick} to={"/#contact"}>
+    <Link onClick={handleHamburgerClick} to={"/#contact"} key={"contact"}>
       Contact
     </Link>,
   ];

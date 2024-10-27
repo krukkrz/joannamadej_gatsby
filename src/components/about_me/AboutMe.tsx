@@ -5,21 +5,16 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div id="about_me" className={styles.aboutme}>
-      <h1>About Me</h1>
+      <h1>About me</h1>
       <p>
-        I am a UX/UI Designer with 2 years of experience. I have designed new
-        features for the Guild app and Omantel online store and together with
-        another designer I have redesigned the internal analytical
-        platform for consulting firm.
+          I’m a Product Designer with over 3 years of experience. My journey has led me through diverse projects, from designing features for a British social media application to redesigning an analytic tool for an international consulting firm.
       </p>
       <p>
-        I have experience in developing wireframes, and prototypes, working with
-        design systems, and conducting usability tests and UX audits.
-        I am passionate about making users lives easier by improving the products they use, and I am always eager to learn new tools and techniques to enhance my design skills and knowledge.
+          I have experience working with international clients, including those from the Near East. I have presented designs in meetings and recommended the best solutions. I have worked with advanced design systems and collaborated with developers. My experience also includes conducting usability tests and UX audits to ensure optimal user experiences.
+
       </p>
       <p>
-        I'm open to new challenges. If you're looking for someone to work on a
-        UX/UI-related project, feel free to contact me.
+          I am passionate about making users’ lives easier by improving the products they rely on. I'm open to new challenges. If you're looking for someone to work on a UX/UI-related project, feel free to contact me.
       </p>
     </div>
   );

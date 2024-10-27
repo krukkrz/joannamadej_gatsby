@@ -8,10 +8,10 @@ const MyProjects = () => {
   const projects = getProjects();
   return (
     <div id="my_projects">
-      <h1>My Projects</h1>
+      <h1>My projects</h1>
       <div className={styles.cards}>
-        {projects.map((project) => (
-          <Card {...project} />
+        {projects.map((project, index) => (
+          <Card {...project} key={`project_${index}`} />
         ))}
       </div>
     </div>

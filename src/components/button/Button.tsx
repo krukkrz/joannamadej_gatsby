@@ -7,12 +7,13 @@ type Props = {
   text: string;
   url: string;
 };
+
 const Button = ({ text, url }: Props) => {
   return (
       <div className={styles.wrapper}>
         <Link to={url}>
           <div className={styles.button}>
-            <div>{text}</div>
+            {text}
           </div>
         </Link>
       </div>

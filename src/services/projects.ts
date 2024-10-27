@@ -63,6 +63,19 @@ export const getProjects = (): Project[] => {
       tags: [CASE_STUDY, UX_UI, EDUCATIONAL_PLATFORM],
     },
     {
+      name: "deskly",
+      title: "How did I design a platform for desk booking?",
+      description:
+          "UX case study, created to showcase my design process and UX skills. As part of the project, I conducted a UX audit and in-depth interviews with users, and I designed screens for Deskly - a desk booking application.",
+      tile: deskly_tile,
+      url: "/deskly",
+      heroXL: desklyXL,
+      type: "Personal created for portfolio purposes",
+      figmaFile:
+          "https://www.figma.com/file/mjir1U2RbWz0mqUSGUChf8/Desk-booking-app?type=design&node-id=0%3A1&mode=design&t=no20rg3tREC66Dfb-1",
+      tags: [CASE_STUDY, UX_UI, UX_AUDIT, DESK_BOOKING_APP]
+    },
+    {
       name: "omantel",
       title: "How did I design the new outlet pickup feature for the Omantel online store?",
       description:
@@ -74,19 +87,6 @@ export const getProjects = (): Project[] => {
       figmaFile:
           "https://www.figma.com/file/2IbjXBrTFRmJGBGSf5qGYh/Omantel---Outlet-Pickup?type=design&node-id=0%3A1&mode=design&t=gZm6KGg4fgbo0hqu-1",
       tags: [COMMERCIAL, UX_UI, ECOMMERCE],
-    },
-    {
-      name: "deskly",
-      title: "How did I design a platform for desk booking?",
-      description:
-        "UX case study, created to showcase my design process and UX skills. As part of the project, I conducted a UX audit and in-depth interviews with users, and I designed screens for Deskly - a desk booking application.",
-      tile: deskly_tile,
-      url: "/deskly",
-      heroXL: desklyXL,
-      type: "Personal created for portfolio purposes",
-      figmaFile:
-        "https://www.figma.com/file/mjir1U2RbWz0mqUSGUChf8/Desk-booking-app?type=design&node-id=0%3A1&mode=design&t=no20rg3tREC66Dfb-1",
-      tags: [CASE_STUDY, UX_UI, UX_AUDIT, DESK_BOOKING_APP]
     },
     {
       name: "healthyme",
