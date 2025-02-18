@@ -17,9 +17,6 @@ const Navbar = () => {
     <Link onClick={handleHamburgerClick} to={"/"} key={"home"}>
       Home
     </Link>,
-    <Link onClick={handleHamburgerClick} to={"/#my_projects"} key={"my_projects"}>
-      My projects
-    </Link>,
     <Link onClick={handleHamburgerClick} to={"/#about_me"} key={"about_me"}>
       About me
     </Link>,

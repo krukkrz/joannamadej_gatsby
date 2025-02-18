@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div id="about_me" className={styles.aboutme}>
       <h1>About me</h1>
       <p>
-          I’m a Product Designer with over 3 years of experience. My journey has led me through diverse projects, from designing features for a British social media application to redesigning an analytic tool for an international consulting firm.
+          I’m a Product Designer with over 4 years of experience. My journey has led me through diverse projects, from designing features for a British social media application to redesigning an analytic tool for an international consulting firm.
       </p>
       <p>
           I have experience working with international clients, including those from the Near East. I have presented designs in meetings and recommended the best solutions. I have worked with advanced design systems and collaborated with developers. My experience also includes conducting usability tests and UX audits to ensure optimal user experiences.

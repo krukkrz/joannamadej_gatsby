@@ -13,7 +13,6 @@ const Index = () => {
     <Page>
       <Hero />
       <div className={styles.home}>
-        <MyProjects />
         <AboutMe />
         <Testimonials />
         <Contact />
